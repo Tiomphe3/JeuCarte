@@ -1,0 +1,49 @@
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.temp
+
+# Ignorer les fichiers de compilation
+*.o
+*.out
+*.class
+*.exe
+
+# Ignorer les dossiers de dépendances
+node_modules/
+vendor/
+bower_components/
+
+# Ignorer les fichiers de configuration d'IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorer les fichiers de cache
+.cache/
+*.cache
+
+# Ignorer les fichiers de sauvegarde
+*~
+*.bak
+*.swp
+
+# Ignorer les fichiers de configuration spécifiques à l'environnement
+.env
+.env.local
+.env.*.local
+
+# Ignorer les fichiers de système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de tests
+coverage/
+*.spec.js
+*.test.js
+
+# Ignorer les fichiers générés par la documentation
+docs/_build/
